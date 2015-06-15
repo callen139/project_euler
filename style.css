@@ -1,0 +1,75 @@
+body {
+	background-color: #F5F5F0;
+}
+
+#top, #middle, #bottom {
+	display: block;
+	position: absolute;
+	width: 100%;
+}
+
+#top {
+	background-color: #FFFFEB;
+	border-bottom: 1px #333329 solid;
+	height: 100px;
+}
+
+#middle {
+	top: 110px;
+}
+
+#bottom {
+	bottom: 0px;
+	background-color: #FFFFEB;
+	border-top: 1px #333329 solid;
+	height: 50px;
+}
+
+.problem {
+	margin: 5px;
+	position: relative;
+	display: block;
+	border: 1px #333329 solid;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+
+#title {
+	position: absolute;
+	top: 20px;
+	left: 450px;
+}
+
+#footer {
+	position: absolute;
+	top: 15px;
+	left: 475px;
+}
+
+.result {
+	position: relative;
+	margin: 2px;
+	border: 1px #333329 solid;
+	border-radius: 7px;
+	width: 500px;
+}
+
+h1, h2{
+	color: #6B4E3D;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
